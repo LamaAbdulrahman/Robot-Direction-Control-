@@ -7,7 +7,7 @@ Tab1 - Engines: contains the control of the engines with two buttons:
 
 Tab2- Directions: contains five direction buttons (Left,Right,Forward,Backward,Stop)
 
-*includes external .php files for fetching important information from the database
+*includes external .php files for fetching important information from the database*
 
 Play.php: shows last saved row with status 1 
 Direction.php: shows the last saved direction 
