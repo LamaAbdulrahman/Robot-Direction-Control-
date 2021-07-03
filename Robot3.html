@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<title>Control Panel</title>
+<body>
+
+<h2>Robot Control Panel</h2>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Engines')" style="font-weight: bolder;">Engines</button>
+  <button class="tablinks" onclick="openTab(event, 'Directions')" style="font-weight: bolder;">Directions</button>
+ 
+</div>
+
+<div id="Engines" class="tabcontent" style="display:block;">
+   <div class="slider">
+        <form id="myForm1" action="http://localhost:8080/training3/Myphp.php" method ="POST" target="blank" >
+        Engine 1:  <input type="range" min="0" max="180" value="90" class="slider" id="value1" name="en1"><p id="demo1"> 90 </p>
+
+      <script>
+        var slider1= document.getElementById("value1");
+        var output1= document.getElementById("demo1");
+        slider1.oninput=function(){
+            output1.innerHTML=this.value;
+        }
+    </script>
+  
+  Engine 2:  <input type="range"  min="0" max="180" value="90" class="slider" id="value2"  name="en2"><p id="demo2" > 90 </p>
+
+    <script>
+        var slider2= document.getElementById("value2");
+        var output2= document.getElementById("demo2");
+        slider2.oninput=function(){
+            output2.innerHTML=this.value;
+        }
+    </script>
+
+            Engine 3:  <input type="range"  min="0" max="180" value="90" class="slider" id="value3"  name="en3"><p id="demo3"> 90 </p>
+           
+           <script>
+              var slider3= document.getElementById("value3");
+              var output3= document.getElementById("demo3");
+              slider3.oninput=function(){
+                  output3.innerHTML=this.value;
+              }
+          </script>
+        
+        Engine 4:  <input type="range" min="0" max="180" value="90" class="slider" id="value4" name="en4"><p id="demo4" > 90 </p>
+      
+      <script>
+              var slider4= document.getElementById("value4");
+              var output4= document.getElementById("demo4");
+              slider4.oninput=function(){
+                  output4.innerHTML=this.value;
+              }
+          </script>
+
+                      Engine 5:  <input type="range"  min="0" max="180" value="90" class="slider" id="value5" name="en5" ><p id="demo5"> 90 </p>
+                      
+                      <script>
+                        var slider5= document.getElementById("value5");
+                        var output5= document.getElementById("demo5");
+                        slider5.oninput=function(){
+                            output5.innerHTML=this.value;
+                        }
+                    </script>
+                  
+                  Engine 4:  <input type="range"  min="0" max="180" value="90" class="slider" id="value6" name="en6" ><p id="demo6"   > 90 </p>
+                   
+                   <script>
+                        var slider6= document.getElementById("value6");
+                        var output6= document.getElementById("demo6");
+                        slider6.oninput=function(){
+                            output6.innerHTML=this.value;
+                        }
+                    </script>
+                   
+     
+                        <div class="buttons">
+                     <input type="submit"  value="Save" name="Save">
+                     <input type="submit"  name="Play" value="Play">
+                    </div>
+                  </div>
+            </div>
+    </form>
+</div>
+
+
+<div id="Directions" class="tabcontent" style="display: none;">
+    <form id="myForm2" action="http://localhost:8080/training3/Myphp.php" method ="POST" target="blank" >
+
+        <div id="TOP">
+           <input type="submit"  Value="Forward" name=" Forward">
+        </div>
+
+        <div id="MIDDLE">
+        <input type="submit"  value="Left" name="Left">
+        <input type="submit"  value="STOP" name="STOP">
+        <input type="submit"  Value="Right" name=" Right">
+        </div>
+
+        <div id="BOTTOM"> 
+        <input type="submit"  Value="Backward" name=" Backward">
+        </div>
+
+
+    </form>  
+</div>
+   
+</div>
+</body>
+</div>
+
+
+<script>
+
+function openTab(evt, TabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(TabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</script>
+   
+</body>
+</html> 

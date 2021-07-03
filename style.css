@@ -1,0 +1,175 @@
+body{
+    background-color: #ffffff;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  html, body {
+    height: 100%;
+  }
+  
+  html {
+    display: table;
+    margin: auto;
+  }
+  
+  /* Style the tab */
+  .tab {
+    overflow: hidden;
+    border: 1px solid rgb(156, 85, 85);
+    background-color: #f1c8c8;
+    width: 100%;
+  
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px; 
+    transition: 0.3s;
+    font-size: 17px;
+    width: 50%;
+    
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(209, 162, 162);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #EB99A6;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgba(201, 103, 103, 0.845);
+    border-top: none;
+    width: 822px;
+  }
+  .tab .slider{
+      display:block;
+  }
+  /*----------*/
+  .slider{
+     margin-left: 170px;
+  }
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+      input[type='range'] {
+        overflow: hidden;
+        width:40%;
+        -webkit-appearance: none;
+        background-color: #A6EB99;
+      }
+      
+      input[type='range']::-webkit-slider-runnable-track {
+        height: 10px;
+        -webkit-appearance: none;
+        color: #A6EB99;
+        margin-top: -1px;
+      }
+      
+      input[type='range']::-webkit-slider-thumb {
+        width: 10px;
+        -webkit-appearance:none;
+        height: 10px;
+        cursor: ew-resize;
+        background: #99a6eb;
+        box-shadow: -90px 0 0 80px #A6EB99;
+      }
+  
+  }
+  
+  input[type="range"]::-moz-range-progress {
+    background-color: #43e5f7; 
+  }
+  input[type="range"]::-moz-range-track {  
+    background-color: #43e5f7;
+  }
+  input[type="range"]::-ms-fill-lower {
+    background-color: #43e5f7; 
+  }
+  input[type="range"]::-ms-fill-upper {  
+    background-color: #43e5f7;
+  }
+  
+  input[type=text] {
+      padding:5px; 
+      border:2px solid #ccc; 
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+  }
+  
+  input[type=text]:focus {
+      border-color:#333;
+  }
+  
+  input[type=submit]  {
+      padding:17px 40px; 
+      background:#ebde99; 
+      border:0 none;
+      cursor:pointer;
+      -webkit-border-radius: 50px;
+      border-radius: 10px; 
+      font-weight: bolder;
+   margin-left: 22px;
+  }
+  .buttons{
+      margin-left: 100px;
+  }
+  /*---------*/
+  
+  #TOP input[type=submit] {
+      align-items: center;
+      padding:50px 100px; 
+      background:#A6EB99; 
+      
+      cursor:pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; 
+     
+      
+      margin-left: 280px;
+      margin-bottom: 10px;
+      font-weight: bolder;
+  }
+  
+  #MIDDLE input[type=submit] {
+      margin: auto;
+      padding:50px 110px; 
+      background:#A6EB99; 
+      border:0 none;
+      cursor:pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; 
+      vertical-align: middle;
+      font-weight: bolder;
+      margin-left: 15px;
+  }
+  
+  #BOTTOM input[type=submit] {
+      text-align: center;
+  
+      padding:50px 95px; 
+      background:#A6EB99; 
+      border:0 none;
+      cursor:pointer;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; 
+      vertical-align: middle;
+      margin: auto;
+      margin-left: 280px;
+      margin-top: 10px;
+  font-weight: bolder;
+  
+  }
+  input[type=submit]:hover {
+    background-color: rgb(214, 126, 114);
+}
+
