@@ -30,9 +30,12 @@ Screenshots:
 <img width="1280" alt="MobileView2" src="https://user-images.githubusercontent.com/86415915/124369198-d05b6d80-dc71-11eb-853b-cac1aee5b0dd.PNG">
 
 5- Play.php 
+
+
 <img width="260" alt="playPhp" src="https://user-images.githubusercontent.com/86415915/124369273-b53d2d80-dc72-11eb-9771-810fb3a8f1f9.PNG">
 
 6- Directions.php
+
 <img width="289" alt="phpPage" src="https://user-images.githubusercontent.com/86415915/124369275-be2dff00-dc72-11eb-99d9-18f1eb6282f2.PNG">
 
 
@@ -41,5 +44,7 @@ Screenshots:
 
 8- new table (Directions)
 <img width="536" alt="DB2" src="https://user-images.githubusercontent.com/86415915/124369155-6c38a980-dc71-11eb-8275-8985b0a16f5e.PNG">
+
+
 *other tables are shown in Six-Engines-Robot-Control repository*
 
