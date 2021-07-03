@@ -42,7 +42,8 @@ Screenshots:
 7-Database 
 <img width="932" alt="DB1" src="https://user-images.githubusercontent.com/86415915/124369149-63e06e80-dc71-11eb-8d46-69f7b7ef5655.PNG">
 
-8- new table (Directions)
+8- Directions Table (New)
+
 <img width="536" alt="DB2" src="https://user-images.githubusercontent.com/86415915/124369155-6c38a980-dc71-11eb-8275-8985b0a16f5e.PNG">
 
 
