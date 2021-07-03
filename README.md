@@ -1,4 +1,4 @@
-# Robot-Direction-Control-
+# Robot-Direction-Control
 This is a web page to control the angles of the robot arm engines as well as controlling the direction of where the robot should go.
 The web page contains a panel with two tabs to navigate through the contents.
 Tab1 - Engines: contains the control of the engines with two buttons: 
